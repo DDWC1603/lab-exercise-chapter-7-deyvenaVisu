@@ -2,17 +2,21 @@
 //complete the program below. 
 
 #include <iostream>
+#include <string>
+using namespace std;
+
+#include "console.h"
+#include "simpio.h"
 
 int main()
 {
 
-	string myName="Mike";//write your name there.
-	//make a while loop until user input 'quit' to exit/end the program
+	string myName="Mike";
 
-	(true)
+	while (true)
 	{
-		
-		string userName;
+		cout<<"Enter your name (or 'quit' to exit):";
+		string userName= getLine();
 		//get the user input for string.
 		if(userName=="Abu")
 	       	{
